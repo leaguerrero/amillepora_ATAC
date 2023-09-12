@@ -116,15 +116,31 @@ PCA_plot_hs <- ggplot(deseq_PCA_hs,aes(x=PC1,y=PC2, color = group)) +
 PCA_plot_hs
 
 # PCA: Heat stress treatment and heat stress day
-deseq_PCA_hs <- plotPCA(vtd,intgroup=c("condition.stress.txt"), returnData = TRUE) 
-deseq_PCA_batch$group<- as.factor(deseq_PCA_hs$group)
+deseq_PCA_hs_and_day <- plotPCA(vtd,intgroup=c("condition.stress.txt", ), returnData = TRUE) 
+deseq_PCA_hs_and_day$group<- as.factor(deseq_PCA_hs_and_day$group)
+deseq_PCA_hs_and_day$stress.day<- my.metadata$stress.day[match((deseq_PCA_hs_and_day$name), my.metadata$ID)]
 
 # Plot PCA heat stress treatment
-heatstress_treatment_ge_PCA_plot <- ggplot(deseq_PCA_hs,aes(x=PC1,y=PC2, color = group)) +
+PCA_plot_hs_and_day <- ggplot(deseq_PCA_hs_and_day,aes(x=PC1,y=PC2, shape = group, color = stress.day)) +
   theme_classic(base_size = 20) +
   #theme(legend.position="none") + 
   #scale_color_manual(values = c("#66BBBB", "#D12E8883")) +
-  labs(title="Gene Expression", shape ="Ext Batch") +
+  # labs(title="Gene Expression", shape ="Ext Batch") +
   geom_point(size = 5, alpha = 0.7)
 
-heatstress_treatment_ge_PCA_plot
+PCA_plot_hs_and_day
+
+# PCA: Heat stress treatment and acclimation treatment
+deseq_PCA_hs_and_acclimation <- plotPCA(vtd,intgroup=c("condition.stress.txt"), returnData = TRUE) 
+deseq_PCA_hs_and_acclimation$group<- as.factor(deseq_PCA_hs_and_acclimation$group)
+deseq_PCA_hs_and_acclimation$acclimation <-my.metadata$acclimation.group[match((deseq_PCA_hs_and_acclimation$name), my.metadata$ID)]
+
+# Plot PCA heat stress treatment
+PCA_plot_hs_and_acclimation <- ggplot(deseq_PCA_hs_and_acclimation,aes(x=PC1,y=PC2, shape = group, color = acclimation)) +
+  theme_classic(base_size = 20) +
+  #theme(legend.position="none") + 
+  #scale_color_manual(values = c("#66BBBB", "#D12E8883")) +
+  # labs(title="Gene Expression", shape ="Ext Batch") +
+  geom_point(size = 5, alpha = 0.7)
+
+PCA_plot_hs_and_acclimation
