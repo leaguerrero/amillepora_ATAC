@@ -1,0 +1,198 @@
+============================================================
+PAM Fv/Fm
+============================================================
+
+Model:
+FvFm ~ Heat.Stress.Treatment + Acc.Treatment +  Heat.Stress.Day + (1 | Genotype)
+
+MODEL SUMMARY
+------------------------------------------------------------
+Linear mixed model fit by maximum likelihood . t-tests use Satterthwaite's
+  method [lmerModLmerTest]
+Formula: FvFm ~ Heat.Stress.Treatment + Acc.Treatment + Heat.Stress.Day +  
+    (1 | Genotype)
+   Data: pam.post
+
+      AIC       BIC    logLik -2*log(L)  df.resid 
+   -164.7    -147.4      90.4    -180.7        56 
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-3.2241 -0.4776  0.0904  0.5329  1.8501 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ Genotype (Intercept) 0.001051 0.03241 
+ Residual             0.002960 0.05440 
+Number of obs: 64, groups:  Genotype, 8
+
+Fixed effects:
+                                 Estimate Std. Error       df t value Pr(>|t|)
+(Intercept)                       0.61167    0.02211 19.48959  27.658   <2e-16
+Heat.Stress.TreatmentHeat Stress -0.16838    0.01360 52.80793 -12.380   <2e-16
+Acc.Treatment27                   0.03631    0.01360 52.80793   2.670   0.0101
+Heat.Stress.DayD11                0.02954    0.02629 27.01127   1.124   0.2710
+Heat.Stress.DayD14                0.03892    0.02499 32.37173   1.557   0.1291
+Heat.Stress.DayD21                0.03887    0.02499 32.37173   1.556   0.1295
+                                    
+(Intercept)                      ***
+Heat.Stress.TreatmentHeat Stress ***
+Acc.Treatment27                  *  
+Heat.Stress.DayD11                  
+Heat.Stress.DayD14                  
+Heat.Stress.DayD21                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+            (Intr) H.S.TS Ac.T27 H.S.DD11 H.S.DD14
+Ht.Strs.THS -0.308                                
+Acc.Trtmn27 -0.308  0.000                         
+Ht.Str.DD11 -0.594  0.000  0.000                  
+Ht.Str.DD14 -0.579  0.000  0.000  0.693           
+Ht.Str.DD21 -0.579  0.000  0.000  0.693    0.674  
+
+
+TYPE III ANOVA
+------------------------------------------------------------
+Type III Analysis of Variance Table with Satterthwaite's method
+                       Sum Sq Mean Sq NumDF  DenDF  F value  Pr(>F)    
+Heat.Stress.Treatment 0.45360 0.45360     1 52.808 153.2564 < 2e-16 ***
+Acc.Treatment         0.02110 0.02110     1 52.808   7.1281 0.01006 *  
+Heat.Stress.Day       0.00876 0.00292     3 35.942   0.9869 0.40989    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+============================================================
+Red-channel intensity
+============================================================
+
+Model:
+red_intensity ~ Heat.Stress.Treatment + Acc.Treatment +  Heat.Stress.Day + (1 | Genotype)
+
+MODEL SUMMARY
+------------------------------------------------------------
+Linear mixed model fit by maximum likelihood . t-tests use Satterthwaite's
+  method [lmerModLmerTest]
+Formula: 
+red_intensity ~ Heat.Stress.Treatment + Acc.Treatment + Heat.Stress.Day +  
+    (1 | Genotype)
+   Data: red.post
+
+      AIC       BIC    logLik -2*log(L)  df.resid 
+    578.3     595.6    -281.1     562.3        56 
+
+Scaled residuals: 
+     Min       1Q   Median       3Q      Max 
+-1.91170 -0.77994 -0.00365  0.64742  2.53985 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ Genotype (Intercept) 325.4    18.04   
+ Residual             290.4    17.04   
+Number of obs: 64, groups:  Genotype, 8
+
+Fixed effects:
+                                 Estimate Std. Error      df t value Pr(>|t|)
+(Intercept)                        81.171      9.098  16.707   8.922 9.24e-08
+Heat.Stress.TreatmentHeat Stress   45.164      4.260  54.972  10.601 6.66e-15
+Acc.Treatment27                    -6.734      4.260  54.972  -1.581   0.1197
+Heat.Stress.DayD11                  1.604      9.786  48.846   0.164   0.8705
+Heat.Stress.DayD14                -20.939      9.150  52.054  -2.288   0.0262
+Heat.Stress.DayD21                  3.598      9.150  52.054   0.393   0.6958
+                                    
+(Intercept)                      ***
+Heat.Stress.TreatmentHeat Stress ***
+Acc.Treatment27                     
+Heat.Stress.DayD11                  
+Heat.Stress.DayD14               *  
+Heat.Stress.DayD21                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+            (Intr) H.S.TS Ac.T27 H.S.DD11 H.S.DD14
+Ht.Strs.THS -0.234                                
+Acc.Trtmn27 -0.234  0.000                         
+Ht.Str.DD11 -0.538  0.000  0.000                  
+Ht.Str.DD14 -0.526  0.000  0.000  0.775           
+Ht.Str.DD21 -0.526  0.000  0.000  0.775    0.756  
+
+
+TYPE III ANOVA
+------------------------------------------------------------
+Type III Analysis of Variance Table with Satterthwaite's method
+                      Sum Sq Mean Sq NumDF  DenDF  F value    Pr(>F)    
+Heat.Stress.Treatment  32637   32637     1 54.972 112.3835 6.656e-15 ***
+Acc.Treatment            726     726     1 54.972   2.4987 0.1196803    
+Heat.Stress.Day         5496    1832     3 51.668   6.3081 0.0009957 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+============================================================
+Glutathione reductase activity
+============================================================
+
+Model:
+log10_GR_activity ~ Heat.Stress.Treatment + Acc.Treatment +  Heat.Stress.Day + (1 | Genotype)
+
+MODEL SUMMARY
+------------------------------------------------------------
+Linear mixed model fit by maximum likelihood . t-tests use Satterthwaite's
+  method [lmerModLmerTest]
+Formula: 
+log10_GR_activity ~ Heat.Stress.Treatment + Acc.Treatment + Heat.Stress.Day +  
+    (1 | Genotype)
+   Data: gr.post
+
+      AIC       BIC    logLik -2*log(L)  df.resid 
+    179.6     196.9     -81.8     163.6        56 
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-3.2180 -0.4437  0.0949  0.5966  1.8990 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ Genotype (Intercept) 0.2700   0.5196  
+ Residual             0.6317   0.7948  
+Number of obs: 64, groups:  Genotype, 8
+
+Fixed effects:
+                                 Estimate Std. Error      df t value Pr(>|t|)
+(Intercept)                       -1.4080     0.3351 21.3848  -4.201 0.000389
+Heat.Stress.TreatmentHeat Stress  -0.8118     0.1987 54.6625  -4.086 0.000145
+Acc.Treatment27                    0.1251     0.1987 54.6625   0.630 0.531587
+Heat.Stress.DayD11                 0.8630     0.3954 32.2284   2.182 0.036478
+Heat.Stress.DayD14                 0.7123     0.3747 37.3553   1.901 0.065048
+Heat.Stress.DayD21                 0.5374     0.3747 37.3553   1.434 0.159828
+                                    
+(Intercept)                      ***
+Heat.Stress.TreatmentHeat Stress ***
+Acc.Treatment27                     
+Heat.Stress.DayD11               *  
+Heat.Stress.DayD14               .  
+Heat.Stress.DayD21                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+            (Intr) H.S.TS Ac.T27 H.S.DD11 H.S.DD14
+Ht.Strs.THS -0.296                                
+Acc.Trtmn27 -0.296  0.000                         
+Ht.Str.DD11 -0.590  0.000  0.000                  
+Ht.Str.DD14 -0.575  0.000  0.000  0.709           
+Ht.Str.DD21 -0.575  0.000  0.000  0.709    0.689  
+
+
+TYPE III ANOVA
+------------------------------------------------------------
+Type III Analysis of Variance Table with Satterthwaite's method
+                       Sum Sq Mean Sq NumDF  DenDF F value    Pr(>F)    
+Heat.Stress.Treatment 10.5451 10.5451     1 54.663 16.6935 0.0001448 ***
+Acc.Treatment          0.2504  0.2504     1 54.663  0.3964 0.5315866    
+Heat.Stress.Day        3.2565  1.0855     3 40.943  1.7184 0.1782253    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
