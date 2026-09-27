@@ -1,0 +1,26 @@
+Dixon red-module validation
+===========================
+
+Unique Dixon red-module genes supplied: 634 
+Dixon red-module genes represented in RNA-seq dataset: 611 
+Genes in Fisher-test comparison universe: 10408 
+Heat-responsive genes in comparison universe: 1795 
+Dixon red-module genes in comparison universe: 611 
+Heat-responsive / Dixon red-module overlap: 229 
+
+One-sided Fisher's exact test:
+
+	Fisher's Exact Test for Count Data
+
+data:  overlap.table
+p-value < 2.2e-16
+alternative hypothesis: true odds ratio is greater than 1
+95 percent confidence interval:
+ 2.714217      Inf
+sample estimates:
+odds ratio 
+  3.150424 
+
+
+Heat-responsive-gene PC1 variance explained: 55.1 %
+Dixon red-module PC1 variance explained: 39.1 %
