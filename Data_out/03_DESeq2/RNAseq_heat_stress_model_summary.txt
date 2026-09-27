@@ -1,0 +1,49 @@
+RNA-seq acute heat-stress DESeq2 analysis
+Model formula:
+~genotype + stress_day + extraction_batch + thermal_history + 
+    heat_stress
+
+Samples: 58 
+Genes tested: 19649 
+
+Coefficient names:
+ [1] "Intercept"                           "genotype_2_vs_1"                    
+ [3] "genotype_3_vs_1"                     "genotype_4_vs_1"                    
+ [5] "genotype_5_vs_1"                     "genotype_6_vs_1"                    
+ [7] "genotype_7_vs_1"                     "genotype_8_vs_1"                    
+ [9] "stress_day_D07_vs_D00"               "stress_day_D14_vs_D00"              
+[11] "stress_day_D21_vs_D00"               "extraction_batch_2_vs_1"            
+[13] "extraction_batch_3_vs_1"             "extraction_batch_4_vs_1"            
+[15] "extraction_batch_5_vs_1"             "thermal_history_7DA_0DB_vs_control" 
+[17] "thermal_history_7DA_14DB_vs_control" "thermal_history_7DA_7DB_vs_control" 
+[19] "heat_stress_36_vs_24.5"             
+
+Final coefficient convergence:
+
+FALSE  TRUE 
+  154 19495 
+
+Dispersion outliers: 362 
+
+Heat-stress result summary:
+
+out of 19649 with nonzero total read count
+adjusted p-value < 0.05
+LFC > 0 (up)       : 3564, 18%
+LFC < 0 (down)     : 5936, 30%
+outliers [1]       : 0, 0%
+low counts [2]     : 3810, 19%
+(mean count < 1)
+[1] see 'cooksCutoff' argument of ?results
+[2] see 'independentFiltering' argument of ?results
+
+NULL
+
+Final DEG criteria:
+Adjusted p-value < 0.01
+Absolute log2 fold change > 2
+Dispersion outliers excluded
+
+Final heat-responsive genes: 2611 
+Upregulated: 1170 
+Downregulated: 1441 
