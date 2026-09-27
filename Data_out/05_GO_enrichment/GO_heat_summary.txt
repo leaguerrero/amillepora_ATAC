@@ -1,0 +1,24 @@
+Heat-responsive gene GO enrichment
+==================================
+
+RNA-seq background genes: 19649 
+Heat-responsive genes: 2611 
+Background genes with GO annotation: 19434 
+Heat-responsive genes with GO annotation: 2593 
+
+Primary filtering threshold used in this script:
+BH FDR < 0.05 
+At least 10 heat-responsive genes assigned to term
+
+Significant terms:
+Biological Process: 174 
+Molecular Function: 27 
+Cellular Component: 3 
+Total: 204 
+
+Comparison of manuscript-relevant FDR thresholds:
+            Ontology FDR_less_than_0.05 FDR_less_than_0.01
+1 Biological Process                174                 64
+2 Molecular Function                 27                 11
+3 Cellular Component                  3                  2
+4              TOTAL                204                 77

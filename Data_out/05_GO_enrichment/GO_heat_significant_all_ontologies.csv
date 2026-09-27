@@ -1,0 +1,205 @@
+"GO.ID","Term","Annotated","Significant","Expected","classic","classic_p","FDR"
+"GO:0042445","hormone metabolic process",118,39,15.61,"2.2e-08",2.2e-08,6.915e-05
+"GO:0010828","positive regulation of glucose transmembrane transport",16,12,2.12,"3.0e-08",3e-08,6.915e-05
+"GO:0015749","monosaccharide transmembrane transport",42,20,5.56,"6.7e-08",6.7e-08,9.10475e-05
+"GO:0034219","carbohydrate transmembrane transport",46,21,6.09,"7.9e-08",7.9e-08,9.10475e-05
+"GO:0010827","regulation of glucose transmembrane transport",28,15,3.7,"4.3e-07",4.3e-07,0.00039646
+"GO:0009653","anatomical structure morphogenesis",1587,273,209.96,"5.4e-07",5.4e-07,0.0004149
+"GO:0009719","response to endogenous stimulus",827,157,109.41,"7.7e-07",7.7e-07,0.0005071
+"GO:0001822","kidney development",224,56,29.64,"1.2e-06",1.2e-06,0.000614666666666667
+"GO:0071495","cellular response to endogenous stimulus",687,134,90.89,"1.2e-06",1.2e-06,0.000614666666666667
+"GO:0048513","animal organ development",1560,266,206.39,"1.7e-06",1.7e-06,0.000712454545454545
+"GO:0035295","tube development",742,142,98.17,"1.7e-06",1.7e-06,0.000712454545454545
+"GO:0010817","regulation of hormone levels",233,57,30.83,"2.0e-06",2e-06,0.000768333333333333
+"GO:0008645","hexose transmembrane transport",39,17,5.16,"3.0e-06",3e-06,0.000987857142857143
+"GO:1904659","glucose transmembrane transport",39,17,5.16,"3.0e-06",3e-06,0.000987857142857143
+"GO:0072001","renal system development",239,57,31.62,"4.7e-06",4.7e-06,0.00140861111111111
+"GO:0048731","system development",2197,355,290.67,"4.9e-06",4.9e-06,0.00140861111111111
+"GO:0050896","response to stimulus",4499,672,595.23,"5.5e-06",5.5e-06,0.00140861111111111
+"GO:0008643","carbohydrate transport",67,23,8.86,"8.2e-06",8.2e-06,0.00198957894736842
+"GO:0043367","CD4-positive, alpha-beta T cell differentiation",30,14,3.97,"8.7e-06",8.7e-06,0.00200535
+"GO:0051173","positive regulation of nitrogen compound metabolic process",1265,217,167.36,"1.3e-05",1.3e-05,0.00268916666666667
+"GO:0016486","peptide hormone processing",31,14,4.1,"1.4e-05",1.4e-05,0.00268916666666667
+"GO:0035710","CD4-positive, alpha-beta T cell activation",31,14,4.1,"1.4e-05",1.4e-05,0.00268916666666667
+"GO:0140448","signaling receptor ligand precursor processing",31,14,4.1,"1.4e-05",1.4e-05,0.00268916666666667
+"GO:0072006","nephron development",119,33,15.74,"1.9e-05",1.9e-05,0.0035036
+"GO:0045582","positive regulation of T cell differentiation",36,15,4.76,"2.2e-05",2.2e-05,0.00390076923076923
+"GO:0034097","response to cytokine",316,68,41.81,"2.5e-05",2.5e-05,0.00426851851851852
+"GO:0042221","response to chemical",1615,266,213.67,"2.7e-05",2.7e-05,0.00444535714285714
+"GO:0048518","positive regulation of biological process",2763,428,365.55,"3.3e-05",3.3e-05,0.00523297297297297
+"GO:0051094","positive regulation of developmental process",610,115,80.7,"3.5e-05",3.5e-05,0.00523297297297297
+"GO:0007275","multicellular organism development",2837,438,375.34,"3.6e-05",3.6e-05,0.00523297297297297
+"GO:0008219","cell death",1037,180,137.2,"3.9e-05",3.9e-05,0.00523297297297297
+"GO:0009893","positive regulation of metabolic process",1492,247,197.39,"4.0e-05",4e-05,0.00523297297297297
+"GO:0012501","programmed cell death",1031,179,136.4,"4.1e-05",4.1e-05,0.00523297297297297
+"GO:1901700","response to oxygen-containing compound",826,148,109.28,"4.1e-05",4.1e-05,0.00523297297297297
+"GO:0010604","positive regulation of macromolecule metabolic process",1397,233,184.83,"4.2e-05",4.2e-05,0.00523297297297297
+"GO:0006915","apoptotic process",1005,175,132.96,"4.2e-05",4.2e-05,0.00523297297297297
+"GO:0048514","blood vessel morphogenesis",347,72,45.91,"5.1e-05",5.1e-05,0.0061871052631579
+"GO:0060429","epithelium development",701,128,92.74,"5.9e-05",5.9e-05,0.00676787234042553
+"GO:0030217","T cell differentiation",75,23,9.92,"6.4e-05",6.4e-05,0.00676787234042553
+"GO:0051093","negative regulation of developmental process",392,79,51.86,"6.4e-05",6.4e-05,0.00676787234042553
+"GO:0071345","cellular response to cytokine stimulus",260,57,34.4,"6.4e-05",6.4e-05,0.00676787234042553
+"GO:0035239","tube morphogenesis",574,108,75.94,"6.6e-05",6.6e-05,0.00676787234042553
+"GO:0009887","animal organ morphogenesis",632,117,83.61,"6.8e-05",6.8e-05,0.00676787234042553
+"GO:0045580","regulation of T cell differentiation",52,18,6.88,"6.9e-05",6.9e-05,0.00676787234042553
+"GO:0071356","cellular response to tumor necrosis factor",52,18,6.88,"6.9e-05",6.9e-05,0.00676787234042553
+"GO:0006749","glutathione metabolic process",39,15,5.16,"6.9e-05",6.9e-05,0.00676787234042553
+"GO:0001944","vasculature development",418,83,55.3,"7.2e-05",7.2e-05,0.006915
+"GO:0030856","regulation of epithelial cell differentiation",48,17,6.35,"7.8e-05",7.8e-05,0.00733836734693877
+"GO:0001819","positive regulation of cytokine production",101,28,13.36,"8.1e-05",8.1e-05,0.00744692307692308
+"GO:0009888","tissue development",1071,183,141.7,"8.3e-05",8.3e-05,0.00744692307692308
+"GO:0051240","positive regulation of multicellular organismal process",648,119,85.73,"8.4e-05",8.4e-05,0.00744692307692308
+"GO:0051239","regulation of multicellular organismal process",1282,214,169.61,"8.6e-05",8.6e-05,0.00748037735849057
+"GO:0034612","response to tumor necrosis factor",72,22,9.53,"9.7e-05",9.7e-05,0.0078135593220339
+"GO:0043370","regulation of CD4-positive, alpha-beta T cell differentiation",24,11,3.18,"1.0e-04",1e-04,0.0078135593220339
+"GO:2000514","regulation of CD4-positive, alpha-beta T cell activation",24,11,3.18,"1.0e-04",1e-04,0.0078135593220339
+"GO:1903825","organic acid transmembrane transport",58,19,7.67,"0.00010",1e-04,0.0078135593220339
+"GO:1905039","carboxylic acid transmembrane transport",58,19,7.67,"0.00010",1e-04,0.0078135593220339
+"GO:0032787","monocarboxylic acid metabolic process",288,61,38.1,"0.00010",1e-04,0.0078135593220339
+"GO:0031325","positive regulation of cellular metabolic process",1300,216,171.99,"0.00011",0.00011,0.00817903225806452
+"GO:0019752","carboxylic acid metabolic process",543,102,71.84,"0.00011",0.00011,0.00817903225806452
+"GO:0072359","circulatory system development",646,118,85.47,"0.00011",0.00011,0.00817903225806452
+"GO:0050793","regulation of developmental process",1186,199,156.91,"0.00012",0.00012,0.00878095238095238
+"GO:0001568","blood vessel development",400,79,52.92,"0.00013",0.00013,0.00908030303030303
+"GO:0033993","response to lipid",357,72,47.23,"0.00013",0.00013,0.00908030303030303
+"GO:0051247","positive regulation of protein metabolic process",658,119,87.05,"0.00016",0.00016,0.0108470588235294
+"GO:0045596","negative regulation of cell differentiation",275,58,36.38,"0.00017",0.00017,0.0111957142857143
+"GO:0043436","oxoacid metabolic process",549,102,72.63,"0.00017",0.00017,0.0111957142857143
+"GO:0032501","multicellular organismal process",3789,562,501.29,"0.00018",0.00018,0.011525
+"GO:0008202","steroid metabolic process",154,37,20.37,"0.00018",0.00018,0.011525
+"GO:0006082","organic acid metabolic process",550,102,72.77,"0.00019",0.00019,0.0118364864864865
+"GO:0003333","amino acid transmembrane transport",38,14,5.03,"0.00021",0.00021,0.0127381578947368
+"GO:0046632","alpha-beta T cell differentiation",38,14,5.03,"0.00021",0.00021,0.0127381578947368
+"GO:0046324","regulation of glucose import",22,10,2.91,"0.00023",0.00023,0.0135935897435897
+"GO:0010033","response to organic substance",1317,216,174.24,"0.00023",0.00023,0.0135935897435897
+"GO:0006631","fatty acid metabolic process",190,43,25.14,"0.00024",0.00024,0.0136592592592593
+"GO:0046635","positive regulation of alpha-beta T cell activation",26,11,3.44,"0.00024",0.00024,0.0136592592592593
+"GO:0006950","response to stress",2074,324,274.39,"0.00024",0.00024,0.0136592592592593
+"GO:0070887","cellular response to chemical stimulus",1079,181,142.75,"0.00025",0.00025,0.0138855421686747
+"GO:0001525","angiogenesis",297,61,39.29,"0.00025",0.00025,0.0138855421686747
+"GO:0072009","nephron epithelium development",82,23,10.85,"0.00028",0.00028,0.0153666666666667
+"GO:0072080","nephron tubule development",72,21,9.53,"0.00029",0.00029,0.0153666666666667
+"GO:0071363","cellular response to growth factor stimulus",379,74,50.14,"0.00030",3e-04,0.0153666666666667
+"GO:0001501","skeletal system development",281,58,37.18,"0.00031",0.00031,0.0155284210526316
+"GO:0072073","kidney epithelium development",125,31,16.54,"0.00032",0.00032,0.0155284210526316
+"GO:0045621","positive regulation of lymphocyte differentiation",44,15,5.82,"0.00033",0.00033,0.0158186274509804
+"GO:0045619","regulation of lymphocyte differentiation",63,19,8.34,"0.00034",0.00034,0.0158186274509804
+"GO:0019221","cytokine-mediated signaling pathway",131,32,17.33,"0.00035",0.00035,0.0158186274509804
+"GO:0002287","alpha-beta T cell activation involved in immune response",23,10,3.04,"0.00035",0.00035,0.0158186274509804
+"GO:0002293","alpha-beta T cell differentiation involved in immune response",23,10,3.04,"0.00035",0.00035,0.0158186274509804
+"GO:0002294","CD4-positive, alpha-beta T cell differentiation involved in immune response",23,10,3.04,"0.00035",0.00035,0.0158186274509804
+"GO:0042093","T-helper cell differentiation",23,10,3.04,"0.00035",0.00035,0.0158186274509804
+"GO:0030098","lymphocyte differentiation",115,29,15.21,"0.00037",0.00037,0.0165601941747573
+"GO:0001932","regulation of protein phosphorylation",496,92,65.62,"0.00038",0.00038,0.0166838095238095
+"GO:0042446","hormone biosynthetic process",40,14,5.29,"0.00038",0.00038,0.0166838095238095
+"GO:2000026","regulation of multicellular organismal development",659,117,87.19,"0.00039",0.00039,0.016961320754717
+"GO:0042981","regulation of apoptotic process",752,131,99.49,"0.00041",0.00041,0.0175009259259259
+"GO:0033674","positive regulation of kinase activity",224,48,29.64,"0.00041",0.00041,0.0175009259259259
+"GO:0045860","positive regulation of protein kinase activity",195,43,25.8,"0.00043",0.00043,0.0181862385321101
+"GO:0031328","positive regulation of cellular biosynthetic process",921,156,121.85,"0.00044",0.00044,0.0182738738738739
+"GO:0070848","response to growth factor",403,77,53.32,"0.00045",0.00045,0.0185223214285714
+"GO:0032496","response to lipopolysaccharide",122,30,16.14,"0.00047",0.00047,0.0190061403508772
+"GO:0043067","regulation of programmed cell death",768,133,101.61,"0.00047",0.00047,0.0190061403508772
+"GO:0001934","positive regulation of protein phosphorylation",329,65,43.53,"0.00049",0.00049,0.0196426086956522
+"GO:0043549","regulation of kinase activity",361,70,47.76,"0.00053",0.00053,0.0205319327731092
+"GO:0009064","glutamine family amino acid metabolic process",65,19,8.6,"0.00053",0.00053,0.0205319327731092
+"GO:0046638","positive regulation of alpha-beta T cell differentiation",24,10,3.18,"0.00053",0.00053,0.0205319327731092
+"GO:0048646","anatomical structure formation involved in morphogenesis",737,128,97.51,"0.00054",0.00054,0.020745
+"GO:0006357","regulation of transcription by RNA polymerase II",691,121,91.42,"0.00055",0.00055,0.0209545454545455
+"GO:0097190","apoptotic signaling pathway",269,55,35.59,"0.00056",0.00056,0.0211606557377049
+"GO:0006629","lipid metabolic process",785,135,103.86,"0.00058",0.00058,0.0213904
+"GO:0009725","response to hormone",350,68,46.31,"0.00060",6e-04,0.021952380952381
+"GO:0050870","positive regulation of T cell activation",66,19,8.73,"0.00066",0.00066,0.0235860465116279
+"GO:1903039","positive regulation of leukocyte cell-cell adhesion",66,19,8.73,"0.00066",0.00066,0.0235860465116279
+"GO:0045859","regulation of protein kinase activity",320,63,42.34,"0.00066",0.00066,0.0235860465116279
+"GO:0001658","branching involved in ureteric bud morphogenesis",42,14,5.56,"0.00067",0.00067,0.0237592307692308
+"GO:0002376","immune system process",1018,169,134.68,"0.00068",0.00068,0.0239165413533835
+"GO:0009891","positive regulation of biosynthetic process",930,156,123.04,"0.00069",0.00069,0.0239165413533835
+"GO:0007166","cell surface receptor signaling pathway",1398,224,184.96,"0.00070",7e-04,0.0240820895522388
+"GO:0046323","glucose import",29,11,3.84,"0.00074",0.00074,0.0249007299270073
+"GO:0046637","regulation of alpha-beta T cell differentiation",29,11,3.84,"0.00074",0.00074,0.0249007299270073
+"GO:0061326","renal tubule development",82,22,10.85,"0.00074",0.00074,0.0249007299270073
+"GO:0002443","leukocyte mediated immunity",171,38,22.62,"0.00077",0.00077,0.0257224637681159
+"GO:0002292","T cell differentiation involved in immune response",25,10,3.31,"0.00079",0.00079,0.0261560283687943
+"GO:0048522","positive regulation of cellular process",2438,370,322.55,"0.00080",8e-04,0.0261560283687943
+"GO:0009628","response to abiotic stimulus",691,120,91.42,"0.00080",8e-04,0.0261560283687943
+"GO:0046634","regulation of alpha-beta T cell activation",34,12,4.5,"0.00091",0.00091,0.0295429577464789
+"GO:0042327","positive regulation of phosphorylation",350,67,46.31,"0.00099",0.00099,0.0319153846153846
+"GO:0010557","positive regulation of macromolecule biosynthetic process",897,150,118.67,"0.00100",0.001,0.0320138888888889
+"GO:0032502","developmental process",3460,509,457.76,"0.00105",0.00105,0.0327060810810811
+"GO:0016477","cell migration",676,117,89.44,"0.00105",0.00105,0.0327060810810811
+"GO:0001657","ureteric bud development",84,22,11.11,"0.00106",0.00106,0.0327959731543624
+"GO:0044281","small molecule metabolic process",1097,179,145.14,"0.00109",0.00109,0.0332774834437086
+"GO:0006955","immune response",670,116,88.64,"0.00109",0.00109,0.0332774834437086
+"GO:0002460","adaptive immune response based on somatic recombination of immune receptors built from immunoglobuli...",95,24,12.57,"0.00111",0.00111,0.0333109677419355
+"GO:0002252","immune effector process",240,49,31.75,"0.00112",0.00112,0.0333109677419355
+"GO:0010562","positive regulation of phosphorus metabolic process",377,71,49.88,"0.00112",0.00112,0.0333109677419355
+"GO:0045937","positive regulation of phosphate metabolic process",377,71,49.88,"0.00112",0.00112,0.0333109677419355
+"GO:0015849","organic acid transport",163,36,21.57,"0.00118",0.00118,0.0336558282208589
+"GO:0046942","carboxylic acid transport",163,36,21.57,"0.00118",0.00118,0.0336558282208589
+"GO:0071900","regulation of protein serine/threonine kinase activity",163,36,21.57,"0.00118",0.00118,0.0336558282208589
+"GO:0002366","leukocyte activation involved in immune response",140,32,18.52,"0.00119",0.00119,0.0336558282208589
+"GO:0045893","positive regulation of DNA-templated transcription",612,107,80.97,"0.00121",0.00121,0.0338066666666667
+"GO:0051402","neuron apoptotic process",112,27,14.82,"0.00121",0.00121,0.0338066666666667
+"GO:0002237","response to molecule of bacterial origin",152,34,20.11,"0.00126",0.00126,0.0349915662650602
+"GO:1902680","positive regulation of RNA biosynthetic process",613,107,81.1,"0.00128",0.00128,0.035334131736527
+"GO:1902107","positive regulation of leukocyte differentiation",80,21,10.58,"0.00132",0.00132,0.0355628571428571
+"GO:1903708","positive regulation of hemopoiesis",80,21,10.58,"0.00132",0.00132,0.0355628571428571
+"GO:0002263","cell activation involved in immune response",141,32,18.65,"0.00135",0.00135,0.0355628571428571
+"GO:0002220","innate immune response activating cell surface receptor signaling pathway",40,13,5.29,"0.00135",0.00135,0.0355628571428571
+"GO:0042325","regulation of phosphorylation",535,95,70.78,"0.00136",0.00136,0.0356227272727273
+"GO:1902105","regulation of leukocyte differentiation",113,27,14.95,"0.00140",0.0014,0.0360558659217877
+"GO:0045944","positive regulation of transcription by RNA polymerase II",412,76,54.51,"0.00140",0.0014,0.0360558659217877
+"GO:0042743","hydrogen peroxide metabolic process",31,11,4.1,"0.00140",0.0014,0.0360558659217877
+"GO:0045765","regulation of angiogenesis",130,30,17.2,"0.00142",0.00142,0.0363677777777778
+"GO:0060675","ureteric bud morphogenesis",45,14,5.95,"0.00145",0.00145,0.0365273224043716
+"GO:0072171","mesonephric tubule morphogenesis",45,14,5.95,"0.00145",0.00145,0.0365273224043716
+"GO:0051254","positive regulation of RNA metabolic process",702,120,92.88,"0.00145",0.00145,0.0365273224043716
+"GO:0046631","alpha-beta T cell activation",50,15,6.62,"0.00150",0.0015,0.0375815217391304
+"GO:0006536","glutamate metabolic process",36,12,4.76,"0.00161",0.00161,0.0401194594594595
+"GO:0055085","transmembrane transport",611,106,80.84,"0.00166",0.00166,0.041109793814433
+"GO:0051347","positive regulation of transferase activity",269,53,35.59,"0.00167",0.00167,0.041109793814433
+"GO:0001823","mesonephros development",87,22,11.51,"0.00173",0.00173,0.041109793814433
+"GO:0072163","mesonephric epithelium development",87,22,11.51,"0.00173",0.00173,0.041109793814433
+"GO:0072164","mesonephric tubule development",87,22,11.51,"0.00173",0.00173,0.041109793814433
+"GO:0007169","transmembrane receptor protein tyrosine kinase signaling pathway",383,71,50.67,"0.00173",0.00173,0.041109793814433
+"GO:0045595","regulation of cell differentiation",699,119,92.48,"0.00176",0.00176,0.0416082051282051
+"GO:0048856","anatomical structure development",3268,480,432.36,"0.00186",0.00186,0.0433060606060606
+"GO:0007154","cell communication",3115,459,412.12,"0.00191",0.00191,0.0442467336683417
+"GO:0051716","cellular response to stimulus",3564,520,471.52,"0.00193",0.00193,0.0444865
+"GO:1901342","regulation of vasculature development",133,30,17.6,"0.00207",0.00207,0.0474761194029851
+"GO:0002286","T cell activation involved in immune response",28,10,3.7,"0.00217",0.00217,0.0492793103448276
+"GO:0035850","epithelial cell differentiation involved in kidney development",28,10,3.7,"0.00217",0.00217,0.0492793103448276
+"GO:0007167","enzyme-linked receptor protein signaling pathway",530,93,70.12,"0.00221",0.00221,0.0499229268292683
+"GO:0061333","renal tubule morphogenesis",62,17,8.2,"0.00222",0.00222,0.0499229268292683
+"GO:0020037","heme binding",126,40,17.5,"2.0e-07",2e-07,0.0001836
+"GO:0016491","oxidoreductase activity",730,147,101.41,"9.2e-07",9.2e-07,0.00042228
+"GO:0046906","tetrapyrrole binding",141,41,19.59,"1.9e-06",1.9e-06,0.0005814
+"GO:0016614","oxidoreductase activity, acting on CH-OH group of donors",131,37,18.2,"1.2e-05",1.2e-05,0.00262285714285714
+"GO:0016712","oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxyge...",20,11,2.78,"1.8e-05",1.8e-05,0.00262285714285714
+"GO:0070330","aromatase activity",17,10,2.36,"2.0e-05",2e-05,0.00262285714285714
+"GO:0016846","carbon-sulfur lyase activity",24,12,3.33,"2.6e-05",2.6e-05,0.0029835
+"GO:0016616","oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor",116,33,16.12,"3.0e-05",3e-05,0.0030294
+"GO:0008238","exopeptidase activity",97,29,13.48,"3.3e-05",3.3e-05,0.0030294
+"GO:0008237","metallopeptidase activity",217,52,30.15,"4.1e-05",4.1e-05,0.00342163636363636
+"GO:0008235","metalloexopeptidase activity",49,18,6.81,"5.3e-05",5.3e-05,0.0040545
+"GO:0005343","organic acid:sodium symporter activity",24,11,3.33,"0.00016",0.00016,0.0112984615384615
+"GO:0016209","antioxidant activity",87,25,12.09,"0.00023",0.00023,0.0150814285714286
+"GO:0004497","monooxygenase activity",103,28,14.31,"0.00027",0.00027,0.016524
+"GO:0016836","hydro-lyase activity",51,17,7.09,"0.00033",0.00033,0.01893375
+"GO:0008514","organic anion transmembrane transporter activity",174,41,24.17,"0.00038",0.00038,0.0204
+"GO:0030545","signaling receptor regulator activity",90,25,12.5,"0.00040",4e-04,0.0204
+"GO:0048018","receptor ligand activity",82,23,11.39,"0.00058",0.00058,0.0280231578947368
+"GO:0043565","sequence-specific DNA binding",456,88,63.35,"0.00066",0.00066,0.030294
+"GO:0000977","RNA polymerase II transcription regulatory region sequence-specific DNA binding",196,44,27.23,"0.00071",0.00071,0.0310371428571429
+"GO:0030546","signaling receptor activator activity",84,23,11.67,"0.00083",0.00083,0.033048
+"GO:0015370","solute:sodium symporter activity",46,15,6.39,"0.00096",0.00096,0.0338953846153846
+"GO:0005342","organic acid transmembrane transporter activity",128,31,17.78,"0.00115",0.00115,0.0364034482758621
+"GO:0046943","carboxylic acid transmembrane transporter activity",128,31,17.78,"0.00115",0.00115,0.0364034482758621
+"GO:0015294","solute:monoatomic cation symporter activity",66,19,9.17,"0.00120",0.0012,0.03672
+"GO:0004177","aminopeptidase activity",34,12,4.72,"0.00140",0.0014,0.041458064516129
+"GO:0008083","growth factor activity",53,16,7.36,"0.00166",0.00166,0.04762125
+"GO:0005576","extracellular region",1600,311,213.87,"1.0e-13",1e-13,6.28e-11
+"GO:0005615","extracellular space",845,153,112.95,"3.1e-05",3.1e-05,0.009734
+"GO:0045177","apical part of cell",265,57,35.42,"0.00015",0.00015,0.0314

@@ -1,0 +1,4 @@
+"GO.ID","Term","Annotated","Significant","Expected","classic","classic_p","FDR"
+"GO:0005576","extracellular region",1600,311,213.87,"1.0e-13",1e-13,6.28e-11
+"GO:0005615","extracellular space",845,153,112.95,"3.1e-05",3.1e-05,0.009734
+"GO:0045177","apical part of cell",265,57,35.42,"0.00015",0.00015,0.0314
