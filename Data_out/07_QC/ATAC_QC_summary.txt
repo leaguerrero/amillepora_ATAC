@@ -1,0 +1,33 @@
+ATAC-seq DiffBind quality control
+================================
+
+Number of ATAC-seq samples: 4 
+
+DiffBind sample information:
+  ID Caller Intervals    Reads FRiP
+1  1 counts     11231  3066830 0.11
+2  2 counts     11231 15199132 0.03
+3  3 counts     11231  5544314 0.02
+4  4 counts     11231 12873484 0.02
+
+FRiP summary:
+  sample DiffBind_Reads FRiP Estimated_Peak_Reads
+1      1        3066830 0.11               337351
+2      2       15199132 0.03               455974
+3      3        5544314 0.02               110886
+4      4       12873484 0.02               257470
+
+Mean FRiP: 0.045 
+Minimum FRiP: 0.02 
+Maximum FRiP: 0.11 
+
+Mean DiffBind Reads: 9170940 
+Minimum DiffBind Reads: 3066830 
+Maximum DiffBind Reads: 15199132 
+
+Additional ATAC-seq QC metrics described in the manuscript
+were generated during upstream processing and are not
+recalculated in this R script:
+  - Bioanalyzer fragment-size profiles
+  - library complexity
+  - TSS enrichment
