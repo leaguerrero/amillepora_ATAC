@@ -1,0 +1,43 @@
+INFO  @ Thu, 17 Aug 2023 22:07:11: 
+# Command line: callpeak -f BAMPE -g 4.75e8 -t /ocean/projects/deb200006p/lherrera/Chapter2/ATAC/Data/Picard_nuc/AMIL_GENO_01_S1_nuc_deduplicated_reads.bam -n AMIL_GENO_01_S1 --outdir /ocean/projects/deb200006p/lherrera/Chapter2/ATAC/Data/MACS2_out
+# ARGUMENTS LIST:
+# name = AMIL_GENO_01_S1
+# format = BAMPE
+# ChIP-seq file = ['/ocean/projects/deb200006p/lherrera/Chapter2/ATAC/Data/Picard_nuc/AMIL_GENO_01_S1_nuc_deduplicated_reads.bam']
+# control file = None
+# effective genome size = 4.75e+08
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# The maximum gap between significant sites is assigned as the read length/tag size.
+# The minimum length of peaks is assigned as the predicted fragment length "d".
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 10000 bps
+# Broad region calling is off
+# Paired-End mode is on
+ 
+INFO  @ Thu, 17 Aug 2023 22:07:11: #1 read fragment files... 
+INFO  @ Thu, 17 Aug 2023 22:07:11: #1 read treatment fragments... 
+INFO  @ Thu, 17 Aug 2023 22:07:16:  1000000 
+INFO  @ Thu, 17 Aug 2023 22:07:22:  2000000 
+INFO  @ Thu, 17 Aug 2023 22:07:28:  3000000 
+INFO  @ Thu, 17 Aug 2023 22:07:33:  4000000 
+INFO  @ Thu, 17 Aug 2023 22:07:40:  5000000 
+INFO  @ Thu, 17 Aug 2023 22:07:46: 5584756 fragments have been read. 
+INFO  @ Thu, 17 Aug 2023 22:07:49: #1 mean fragment size is determined as 116.3 bp from treatment 
+INFO  @ Thu, 17 Aug 2023 22:07:49: #1 fragment size = 116.3 
+INFO  @ Thu, 17 Aug 2023 22:07:49: #1  total fragments in treatment: 5584756 
+INFO  @ Thu, 17 Aug 2023 22:07:49: #1 user defined the maximum fragments... 
+INFO  @ Thu, 17 Aug 2023 22:07:49: #1 filter out redundant fragments by allowing at most 1 identical fragment(s) 
+INFO  @ Thu, 17 Aug 2023 22:07:57: #1  fragments after filtering in treatment: 4421288 
+INFO  @ Thu, 17 Aug 2023 22:07:57: #1  Redundant rate of treatment: 0.21 
+INFO  @ Thu, 17 Aug 2023 22:07:57: #1 finished! 
+INFO  @ Thu, 17 Aug 2023 22:07:57: #2 Build Peak Model... 
+INFO  @ Thu, 17 Aug 2023 22:07:57: #2 Skipped... 
+INFO  @ Thu, 17 Aug 2023 22:07:57: #3 Call peaks... 
+INFO  @ Thu, 17 Aug 2023 22:07:57: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Thu, 17 Aug 2023 22:08:21: #3 Call peaks for each chromosome... 
+INFO  @ Thu, 17 Aug 2023 22:08:33: #4 Write output xls file... /ocean/projects/deb200006p/lherrera/Chapter2/ATAC/Data/MACS2_out/AMIL_GENO_01_S1_peaks.xls 
+INFO  @ Thu, 17 Aug 2023 22:08:33: #4 Write peak in narrowPeak format file... /ocean/projects/deb200006p/lherrera/Chapter2/ATAC/Data/MACS2_out/AMIL_GENO_01_S1_peaks.narrowPeak 
+INFO  @ Thu, 17 Aug 2023 22:08:33: #4 Write summits bed file... /ocean/projects/deb200006p/lherrera/Chapter2/ATAC/Data/MACS2_out/AMIL_GENO_01_S1_summits.bed 
+INFO  @ Thu, 17 Aug 2023 22:08:33: Done! 

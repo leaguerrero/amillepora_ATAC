@@ -1,0 +1,69 @@
+INFO  @ Thu, 17 Aug 2023 22:07:04: 
+# Command line: callpeak -f BAMPE -g 4.75e8 -t /ocean/projects/deb200006p/lherrera/Chapter2/ATAC/Data/Picard_nuc/AMIL_GENO_02_S2_nuc_deduplicated_reads.bam -n AMIL_GENO_02_S2 --outdir /ocean/projects/deb200006p/lherrera/Chapter2/ATAC/Data/MACS2_out
+# ARGUMENTS LIST:
+# name = AMIL_GENO_02_S2
+# format = BAMPE
+# ChIP-seq file = ['/ocean/projects/deb200006p/lherrera/Chapter2/ATAC/Data/Picard_nuc/AMIL_GENO_02_S2_nuc_deduplicated_reads.bam']
+# control file = None
+# effective genome size = 4.75e+08
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# The maximum gap between significant sites is assigned as the read length/tag size.
+# The minimum length of peaks is assigned as the predicted fragment length "d".
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 10000 bps
+# Broad region calling is off
+# Paired-End mode is on
+ 
+INFO  @ Thu, 17 Aug 2023 22:07:04: #1 read fragment files... 
+INFO  @ Thu, 17 Aug 2023 22:07:04: #1 read treatment fragments... 
+INFO  @ Thu, 17 Aug 2023 22:07:09:  1000000 
+INFO  @ Thu, 17 Aug 2023 22:07:14:  2000000 
+INFO  @ Thu, 17 Aug 2023 22:07:20:  3000000 
+INFO  @ Thu, 17 Aug 2023 22:07:25:  4000000 
+INFO  @ Thu, 17 Aug 2023 22:07:30:  5000000 
+INFO  @ Thu, 17 Aug 2023 22:07:35:  6000000 
+INFO  @ Thu, 17 Aug 2023 22:07:40:  7000000 
+INFO  @ Thu, 17 Aug 2023 22:07:45:  8000000 
+INFO  @ Thu, 17 Aug 2023 22:07:50:  9000000 
+INFO  @ Thu, 17 Aug 2023 22:07:55:  10000000 
+INFO  @ Thu, 17 Aug 2023 22:08:00:  11000000 
+INFO  @ Thu, 17 Aug 2023 22:08:05:  12000000 
+INFO  @ Thu, 17 Aug 2023 22:08:10:  13000000 
+INFO  @ Thu, 17 Aug 2023 22:08:15:  14000000 
+INFO  @ Thu, 17 Aug 2023 22:08:20:  15000000 
+INFO  @ Thu, 17 Aug 2023 22:08:25:  16000000 
+INFO  @ Thu, 17 Aug 2023 22:08:31:  17000000 
+INFO  @ Thu, 17 Aug 2023 22:08:36:  18000000 
+INFO  @ Thu, 17 Aug 2023 22:08:41:  19000000 
+INFO  @ Thu, 17 Aug 2023 22:08:46:  20000000 
+INFO  @ Thu, 17 Aug 2023 22:08:51:  21000000 
+INFO  @ Thu, 17 Aug 2023 22:08:56:  22000000 
+INFO  @ Thu, 17 Aug 2023 22:09:01:  23000000 
+INFO  @ Thu, 17 Aug 2023 22:09:06:  24000000 
+INFO  @ Thu, 17 Aug 2023 22:09:11:  25000000 
+INFO  @ Thu, 17 Aug 2023 22:09:15:  26000000 
+INFO  @ Thu, 17 Aug 2023 22:09:20:  27000000 
+INFO  @ Thu, 17 Aug 2023 22:09:25:  28000000 
+INFO  @ Thu, 17 Aug 2023 22:09:30:  29000000 
+INFO  @ Thu, 17 Aug 2023 22:09:35:  30000000 
+INFO  @ Thu, 17 Aug 2023 22:09:40:  31000000 
+INFO  @ Thu, 17 Aug 2023 22:09:50: 31491295 fragments have been read. 
+INFO  @ Thu, 17 Aug 2023 22:10:11: #1 mean fragment size is determined as 150.7 bp from treatment 
+INFO  @ Thu, 17 Aug 2023 22:10:11: #1 fragment size = 150.7 
+INFO  @ Thu, 17 Aug 2023 22:10:11: #1  total fragments in treatment: 31491295 
+INFO  @ Thu, 17 Aug 2023 22:10:11: #1 user defined the maximum fragments... 
+INFO  @ Thu, 17 Aug 2023 22:10:11: #1 filter out redundant fragments by allowing at most 1 identical fragment(s) 
+INFO  @ Thu, 17 Aug 2023 22:10:57: #1  fragments after filtering in treatment: 22710005 
+INFO  @ Thu, 17 Aug 2023 22:10:57: #1  Redundant rate of treatment: 0.28 
+INFO  @ Thu, 17 Aug 2023 22:10:57: #1 finished! 
+INFO  @ Thu, 17 Aug 2023 22:10:57: #2 Build Peak Model... 
+INFO  @ Thu, 17 Aug 2023 22:10:57: #2 Skipped... 
+INFO  @ Thu, 17 Aug 2023 22:10:57: #3 Call peaks... 
+INFO  @ Thu, 17 Aug 2023 22:10:57: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Thu, 17 Aug 2023 22:12:48: #3 Call peaks for each chromosome... 
+INFO  @ Thu, 17 Aug 2023 22:13:46: #4 Write output xls file... /ocean/projects/deb200006p/lherrera/Chapter2/ATAC/Data/MACS2_out/AMIL_GENO_02_S2_peaks.xls 
+INFO  @ Thu, 17 Aug 2023 22:13:47: #4 Write peak in narrowPeak format file... /ocean/projects/deb200006p/lherrera/Chapter2/ATAC/Data/MACS2_out/AMIL_GENO_02_S2_peaks.narrowPeak 
+INFO  @ Thu, 17 Aug 2023 22:13:47: #4 Write summits bed file... /ocean/projects/deb200006p/lherrera/Chapter2/ATAC/Data/MACS2_out/AMIL_GENO_02_S2_summits.bed 
+INFO  @ Thu, 17 Aug 2023 22:13:47: Done! 

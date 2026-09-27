@@ -1,0 +1,5 @@
+﻿SampleID,bamReads,Peaks,PeakCaller
+1,./Code_and_data/Data/00_inputs/ATAC_peaks/BAM_files/AMIL_GENO_01_S1_nuc_deduplicated_reads.rg.bam,./Code_and_data/Data/00_inputs/ATAC_peaks/Peak_files/AMIL_GENO_01_S1_peaks.xls,macs
+2,./Code_and_data/Data/00_inputs/ATAC_peaks/BAM_files/AMIL_GENO_02_S2_nuc_deduplicated_reads.rg.bam,./Code_and_data/Data/00_inputs/ATAC_peaks/Peak_files/AMIL_GENO_02_S2_peaks.xls,macs
+3,./Code_and_data/Data/00_inputs/ATAC_peaks/BAM_files/AMIL_GENO_03_S3_nuc_deduplicated_reads.rg.bam,./Code_and_data/Data/00_inputs/ATAC_peaks/Peak_files/AMIL_GENO_03_S3_peaks.xls,macs
+4,./Code_and_data/Data/00_inputs/ATAC_peaks/BAM_files/AMIL_GENO_04_S4_nuc_deduplicated_reads.rg.bam,./Code_and_data/Data/00_inputs/ATAC_peaks/Peak_files/AMIL_GENO_04_S4_peaks.xls,macs

@@ -1,0 +1,59 @@
+INFO  @ Thu, 17 Aug 2023 22:07:23: 
+# Command line: callpeak -f BAMPE -g 4.75e8 -t /ocean/projects/deb200006p/lherrera/Chapter2/ATAC/Data/Picard_nuc/AMIL_GENO_04_S4_nuc_deduplicated_reads.bam -n AMIL_GENO_04_S4 --outdir /ocean/projects/deb200006p/lherrera/Chapter2/ATAC/Data/MACS2_out
+# ARGUMENTS LIST:
+# name = AMIL_GENO_04_S4
+# format = BAMPE
+# ChIP-seq file = ['/ocean/projects/deb200006p/lherrera/Chapter2/ATAC/Data/Picard_nuc/AMIL_GENO_04_S4_nuc_deduplicated_reads.bam']
+# control file = None
+# effective genome size = 4.75e+08
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# The maximum gap between significant sites is assigned as the read length/tag size.
+# The minimum length of peaks is assigned as the predicted fragment length "d".
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 10000 bps
+# Broad region calling is off
+# Paired-End mode is on
+ 
+INFO  @ Thu, 17 Aug 2023 22:07:23: #1 read fragment files... 
+INFO  @ Thu, 17 Aug 2023 22:07:23: #1 read treatment fragments... 
+INFO  @ Thu, 17 Aug 2023 22:07:28:  1000000 
+INFO  @ Thu, 17 Aug 2023 22:07:32:  2000000 
+INFO  @ Thu, 17 Aug 2023 22:07:37:  3000000 
+INFO  @ Thu, 17 Aug 2023 22:07:41:  4000000 
+INFO  @ Thu, 17 Aug 2023 22:07:46:  5000000 
+INFO  @ Thu, 17 Aug 2023 22:07:50:  6000000 
+INFO  @ Thu, 17 Aug 2023 22:07:55:  7000000 
+INFO  @ Thu, 17 Aug 2023 22:07:59:  8000000 
+INFO  @ Thu, 17 Aug 2023 22:08:03:  9000000 
+INFO  @ Thu, 17 Aug 2023 22:08:08:  10000000 
+INFO  @ Thu, 17 Aug 2023 22:08:12:  11000000 
+INFO  @ Thu, 17 Aug 2023 22:08:17:  12000000 
+INFO  @ Thu, 17 Aug 2023 22:08:21:  13000000 
+INFO  @ Thu, 17 Aug 2023 22:08:25:  14000000 
+INFO  @ Thu, 17 Aug 2023 22:08:30:  15000000 
+INFO  @ Thu, 17 Aug 2023 22:08:34:  16000000 
+INFO  @ Thu, 17 Aug 2023 22:08:39:  17000000 
+INFO  @ Thu, 17 Aug 2023 22:08:43:  18000000 
+INFO  @ Thu, 17 Aug 2023 22:08:48:  19000000 
+INFO  @ Thu, 17 Aug 2023 22:08:52:  20000000 
+INFO  @ Thu, 17 Aug 2023 22:08:57:  21000000 
+INFO  @ Thu, 17 Aug 2023 22:09:03: 21924626 fragments have been read. 
+INFO  @ Thu, 17 Aug 2023 22:09:17: #1 mean fragment size is determined as 173.2 bp from treatment 
+INFO  @ Thu, 17 Aug 2023 22:09:17: #1 fragment size = 173.2 
+INFO  @ Thu, 17 Aug 2023 22:09:17: #1  total fragments in treatment: 21924626 
+INFO  @ Thu, 17 Aug 2023 22:09:17: #1 user defined the maximum fragments... 
+INFO  @ Thu, 17 Aug 2023 22:09:17: #1 filter out redundant fragments by allowing at most 1 identical fragment(s) 
+INFO  @ Thu, 17 Aug 2023 22:09:48: #1  fragments after filtering in treatment: 13879688 
+INFO  @ Thu, 17 Aug 2023 22:09:48: #1  Redundant rate of treatment: 0.37 
+INFO  @ Thu, 17 Aug 2023 22:09:48: #1 finished! 
+INFO  @ Thu, 17 Aug 2023 22:09:48: #2 Build Peak Model... 
+INFO  @ Thu, 17 Aug 2023 22:09:48: #2 Skipped... 
+INFO  @ Thu, 17 Aug 2023 22:09:48: #3 Call peaks... 
+INFO  @ Thu, 17 Aug 2023 22:09:48: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Thu, 17 Aug 2023 22:10:50: #3 Call peaks for each chromosome... 
+INFO  @ Thu, 17 Aug 2023 22:11:18: #4 Write output xls file... /ocean/projects/deb200006p/lherrera/Chapter2/ATAC/Data/MACS2_out/AMIL_GENO_04_S4_peaks.xls 
+INFO  @ Thu, 17 Aug 2023 22:11:18: #4 Write peak in narrowPeak format file... /ocean/projects/deb200006p/lherrera/Chapter2/ATAC/Data/MACS2_out/AMIL_GENO_04_S4_peaks.narrowPeak 
+INFO  @ Thu, 17 Aug 2023 22:11:19: #4 Write summits bed file... /ocean/projects/deb200006p/lherrera/Chapter2/ATAC/Data/MACS2_out/AMIL_GENO_04_S4_summits.bed 
+INFO  @ Thu, 17 Aug 2023 22:11:19: Done! 
