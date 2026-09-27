@@ -9,7 +9,7 @@ The scripts are numbered in the order of the main analysis workflow.
 The current shared scripts assume that the R working directory is the directory **containing** `Code_and_data`, so that paths such as:
 
 ```r
-./Code_and_data/Data/00_inputs/
+./Code_and_data/Data_out/00_inputs/
 ```
 
 resolve correctly.
