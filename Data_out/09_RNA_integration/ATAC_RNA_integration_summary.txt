@@ -1,0 +1,37 @@
+ATAC-seq / RNA-seq integration
+==============================
+
+Interpretation:
+ATAC-seq and RNA-seq datasets were generated from
+independently sourced fragments. Results therefore
+represent broad cross-dataset associations.
+
+RNA-seq expression universe: 19649 
+Expressed genes with accessible promoters: 1735 
+
+Heat-responsive promoter enrichment
+-----------------------------------
+Heat-responsive genes: 2611 
+Heat-responsive genes with accessible promoters: 243 
+Odds ratio: 1.069248 
+95% CI: 0.9235019 to 1.234079 
+p-value: 0.3545601 
+
+Dixon red-module promoter enrichment
+------------------------------------
+Red-module genes represented: 611 
+Red-module genes with accessible promoters: 52 
+Odds ratio: 0.9592505 
+95% CI: 0.7044794 to 1.282316 
+p-value: 0.8281649 
+
+Figure 4 correlations
+---------------------
+Genes used: 243 
+Accessibility vs mean expression:
+Spearman rho: 0.2699747 
+p-value: 1.987634e-05 
+
+Accessibility vs magnitude of heat response:
+Spearman rho: -0.007221583 
+p-value: 0.9108279 
