@@ -1,0 +1,19 @@
+ATAC-seq consensus peak construction
+===================================
+
+ATAC-seq samples: 4 
+Consensus definition: peak present in at least 2 of 4 samples
+MACS -log10(p-value) threshold: 4.3
+Corresponding peak p-value threshold: 5 x 10^-5
+
+Consensus peaks: 11231 
+Peaks returned by ChIPseeker: 11096 
+Peaks not returned by ChIPseeker: 135 
+
+Promoter-associated peaks: 3973 
+Unique genes with accessible promoters: 3568 
+Percent of annotated peaks classified as promoters: 35.81 %
+
+Mean CPM accessibility summary:
+    Min.  1st Qu.   Median     Mean  3rd Qu.     Max. 
+    3.45    36.76    61.89    89.04    96.61 92628.99 
