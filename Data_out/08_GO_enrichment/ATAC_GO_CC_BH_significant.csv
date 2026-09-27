@@ -1,0 +1,14 @@
+"GO.ID","Term","Annotated","Significant","Expected","classic","classic_p","FDR"
+"GO:0018995","host cellular component",103,26,8.26,"9.9e-08",9.9e-08,6.6429e-05
+"GO:0043657","host cell",100,24,8.02,"8.3e-07",8.3e-07,0.000278465
+"GO:0033646","host intracellular part",94,22,7.54,"3.7e-06",3.7e-06,0.000620675
+"GO:0043656","host intracellular region",94,22,7.54,"3.7e-06",3.7e-06,0.000620675
+"GO:0033643","host cell part",96,22,7.7,"5.4e-06",5.4e-06,0.000620675
+"GO:0030430","host cell cytoplasm",90,21,7.22,"6.4e-06",6.4e-06,0.000620675
+"GO:0033647","host intracellular organelle",77,19,6.18,"7.4e-06",7.4e-06,0.000620675
+"GO:0033648","host intracellular membrane-bounded organelle",77,19,6.18,"7.4e-06",7.4e-06,0.000620675
+"GO:0033655","host cell cytoplasm part",39,11,3.13,"0.00017",0.00017,0.00894666666666667
+"GO:0097228","sperm principal piece",46,12,3.69,"0.00020",2e-04,0.00894666666666667
+"GO:0042025","host cell nucleus",68,15,5.46,"0.00026",0.00026,0.01090375
+"GO:0000943","retrotransposon nucleocapsid",46,11,3.69,"0.00082",0.00082,0.027511
+"GO:0030666","endocytic vesicle membrane",92,17,7.38,"0.00093",0.00093,0.0297157142857143

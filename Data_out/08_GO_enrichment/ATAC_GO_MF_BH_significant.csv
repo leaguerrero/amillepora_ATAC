@@ -1,0 +1,32 @@
+"GO.ID","Term","Annotated","Significant","Expected","classic","classic_p","FDR"
+"GO:0003964","RNA-directed DNA polymerase activity",457,105,39.67,"3.1e-21",3.1e-21,3.0938e-18
+"GO:0034061","DNA polymerase activity",484,107,42.02,"2.9e-20",2.9e-20,1.4471e-17
+"GO:0004190","aspartic-type endopeptidase activity",352,82,30.56,"3.7e-17",3.7e-17,1.12275e-14
+"GO:0070001","aspartic-type peptidase activity",353,82,30.64,"4.5e-17",4.5e-17,1.12275e-14
+"GO:0016779","nucleotidyltransferase activity",581,113,50.44,"7.2e-17",7.2e-17,1.43712e-14
+"GO:0140097","catalytic activity, acting on DNA",693,122,60.16,"1.0e-14",1e-14,1.66333333333333e-12
+"GO:0004519","endonuclease activity",516,97,44.79,"1.2e-13",1.2e-13,1.71085714285714e-11
+"GO:0004518","nuclease activity",725,122,62.94,"2.9e-13",2.9e-13,3.61775e-11
+"GO:0003676","nucleic acid binding",3102,357,269.29,"2.6e-10",2.6e-10,2.88311111111111e-08
+"GO:0016772","transferase activity, transferring phosphorus-containing groups",1421,189,123.36,"3.9e-10",3.9e-10,3.8922e-08
+"GO:0003887","DNA-directed DNA polymerase activity",227,50,19.71,"5.1e-10",5.1e-10,4.62709090909091e-08
+"GO:0016788","hydrolase activity, acting on ester bonds",1158,156,100.53,"7.4e-09",7.4e-09,6.15433333333333e-07
+"GO:1901363","heterocyclic compound binding",5261,546,456.71,"9.1e-09",9.1e-09,6.986e-07
+"GO:0008270","zinc ion binding",1108,150,96.19,"1.1e-08",1.1e-08,7.84142857142857e-07
+"GO:0097159","organic cyclic compound binding",5291,548,459.31,"1.2e-08",1.2e-08,7.984e-07
+"GO:0004523","RNA-DNA hybrid ribonuclease activity",133,33,11.55,"2.2e-08",2.2e-08,1.37225e-06
+"GO:0140640","catalytic activity, acting on a nucleic acid",989,133,85.86,"1.2e-07",1.2e-07,7.04470588235294e-06
+"GO:0016891","RNA endonuclease activity, producing 5'-phosphomonoesters",159,34,13.8,"6.2e-07",6.2e-07,3.43755555555556e-05
+"GO:0004175","endopeptidase activity",768,106,66.67,"7.7e-07",7.7e-07,4.04452631578947e-05
+"GO:0016740","transferase activity",2792,305,242.37,"2.0e-06",2e-06,9.98e-05
+"GO:0046914","transition metal ion binding",1433,172,124.4,"3.4e-06",3.4e-06,0.000161580952380952
+"GO:0008233","peptidase activity",1000,127,86.81,"5.2e-06",5.2e-06,0.000235890909090909
+"GO:0016893","endonuclease activity, active with either ribo- or deoxyribonucleic acids and producing 5'-phosphomo...",192,36,16.67,"7.6e-06",7.6e-06,0.000329773913043478
+"GO:0004521","RNA endonuclease activity",179,34,15.54,"1.0e-05",1e-05,0.000415833333333333
+"GO:0140096","catalytic activity, acting on a protein",2704,291,234.74,"1.4e-05",1.4e-05,0.00055888
+"GO:0036312","phosphatidylinositol 3-kinase regulatory subunit binding",84,20,7.29,"2.5e-05",2.5e-05,0.000959615384615385
+"GO:0043548","phosphatidylinositol 3-kinase binding",89,20,7.73,"6.0e-05",6e-05,0.00221777777777778
+"GO:0004540","RNA nuclease activity",206,34,17.88,"0.00019",0.00019,0.00677214285714286
+"GO:1990381","ubiquitin-specific protease binding",43,12,3.73,"0.00021",0.00021,0.00722689655172414
+"GO:0003677","DNA binding",1535,171,133.25,"0.00024",0.00024,0.007984
+"GO:0016787","hydrolase activity",2523,259,219.02,"0.00110",0.0011,0.0322882352941176
